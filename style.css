@@ -1,0 +1,251 @@
+body{
+    font-family: 'Manrope', sans-serif;
+}
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+header{
+    background-color: #0E0E0E;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* height: 100px; */
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-bottom: 100px;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    color: white;
+    margin-right: 20px;
+    font-size: 13px;
+}
+.hearor{
+    background-color: #0E0E0E;
+    /* height: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.hearor-left{
+    background-color: #0E0E0E;
+    width: 40%;
+    margin-top: 90px;
+    margin-left: 100px;
+}
+.hearor-left h3{
+    font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 10px;
+opacity: 0.5;
+color: white;
+}
+.hearor-left h1{
+    font-weight: 700;
+font-size: 56px;
+line-height: 58px;
+letter-spacing: 2px;
+color: white;
+}
+.hearor-right{
+    margin-top: 90px;
+    margin-right: 200px;
+    width: 30%;
+}
+.hearor-right img{
+    width: 500px;
+    height: 500px;
+}
+.hearor-left p{
+    font-weight: 500;
+font-size: 15px;
+width: 340px;
+line-height: 25px;
+color: white;
+}
+.hearor-left button{
+    background-color: #D87D4A;
+    width: 160px;
+    height: 48px;
+    border: #D87D4A;
+    font-weight: 700;
+font-size: 13px;
+line-height: 18px;
+color: white;
+}
+.shop{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.shop-box{
+    display: flex;
+    justify-content: space-around;
+}
+.airpods{
+    position: relative;
+    width: 350px;
+    height: 200px;
+    background-color: #F1F1F1;
+}
+.airpods img{
+    position: absolute;
+    top: -70px;
+    left: 100px;
+}
+.airpods h2{
+    position: absolute;
+    top: 90px;
+    left: 80px;
+}
+.airpods button{
+    background-color: #F1F1F1;
+    border: none;
+font-weight: 700;
+font-size: 13px;
+line-height: 18px;
+opacity: 0.5;
+    position: absolute;
+    top: 160px;
+    left: 140px;
+}
+.speaker{
+    margin: 0 auto;
+    background-color: #D87D4A;
+    border-radius: 8px;
+    width: 1110px;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.speaker-left{
+margin-top: 100px;
+}
+.speaker-right{
+    width: 349px;
+    color: white;
+}
+.speaker-right button{
+    width: 160px;
+    height: 48px;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    border: black;
+}
+.speaker2{
+    width: 1247px;
+    height: 863px;
+    background-image: url(/images/img1.png);
+    background-repeat: no-repeat;
+  margin: 100px ;
+  margin-bottom: -450px;
+  border-radius: 8px;
+}
+.s2box{
+    margin-left: 100px;
+padding-top: 80px;
+}
+.speaker2 h1{
+font-weight: 700;
+font-size: 28px;
+line-height: 38px;
+letter-spacing: 2px;
+color: black;
+}
+.speaker2 button{
+    width: 160px;
+    height: 48px;
+background-color: #dadada;
+    color: black;
+    font-size: 13px;
+    border:1px solid black;
+}
+.quloqcin{
+    display: flex;
+    justify-content: space-around;
+}
+.qbox-left img{
+border-radius: 8px;
+}
+.qbox button{
+    width: 160px;
+    height: 48px;
+background-color: #F1F1F1;
+    color: black;
+    font-size: 13px;
+    border:1px solid black;
+}
+.qbox-right{
+    background-color: #F1F1F1;
+    width: 540px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+/* wu yerdan ohirgi section bowlandi */
+.audio{
+    margin-bottom: 100px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.audio-left{
+    width: 445px;
+}
+.audio-left h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+}
+span{
+    color: #D87D4A;
+}
+.audio-left p{
+    opacity: 0.5;
+}
+footer{
+    height: 365px;
+    background-color: #0E0E0E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.footer-left{
+    width: 50%;
+}
+.footer-left p{
+    opacity: 0.5;
+}
+.fnavbar{
+    display: flex;
+}
+.fnavbar a{
+    color: white;
+    margin-right: 20px;
+    font-size: 13px;
+}
+.navbar-logo{
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    margin-bottom: 100px;
+}
